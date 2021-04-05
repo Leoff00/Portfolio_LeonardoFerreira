@@ -1,0 +1,61 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.navContainer {
+    background-image: 
+    linear-gradient(to right, #ADD8E6, #00bfffb1);
+    margin: auto;
+    border-radius: 25px;
+    width: 99.99%;
+    height: 55px;
+    background-color: #777777;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+.headerText {
+    font-family: "Open sans", Arial, sans-serif;
+    font-size: 1.1rem;
+    margin: 5px;
+}
+
+.svgIcon {
+    margin-left: -200px;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+}
+
+.separator {
+    border-left: 2px solid #000000;
+    width: 3%;
+    height: 35px;
+    margin: 0 1.2rem;
+}
+
+.navLinks {
+    color: #000000;
+    text-decoration: none;
+    border: 0.15rem solid black;
+    border-radius: 35px;
+    margin: 0 0.6rem;
+    padding: 0 1.6rem;
+    font-size: 1.2rem;
+    font-family: "Open sans", Arial, sans-serif;
+    transition: 0.15s;
+}
+
+.navLinks:hover {
+    transition: 0.15s;
+    color: #bdc9b8;
+    background-color: #000000;
+}
+
+a:link {
+    text-decoration: none;
+}

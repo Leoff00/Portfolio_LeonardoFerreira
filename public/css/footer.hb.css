@@ -1,0 +1,12 @@
+.footerContainer {
+    width: 100%;
+    height: 4rem;
+    background-image: 
+    linear-gradient(to right, #696969, #C0C0C0);
+    background-color: #696969;
+}
+
+.test {
+    height: 3000px;
+    width: 200px;
+}
