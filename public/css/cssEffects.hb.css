@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.avatarText:hover {
+    border: none;
+    font-size: 1.15rem;
+    box-shadow: none;
+    transition: 0.5s;
+}
+
+.projPics:hover {
+    cursor: pointer;
+} 
