@@ -4,6 +4,7 @@
 body {
   margin: 0;
   background-color: #c3e7fa91;
+  box-sizing: border-box;
 }
 
 .container {
@@ -176,13 +177,6 @@ li {
   font-weight: 400;
 }
 
-.contactNumber {
-  font-family: "Open sans", Arial, sans-serif;
-  font-size: 1.02rem;
-  margin: 5rem 4.2rem 0 1.6rem;
-  font-weight: 400;
-}
-
 .aboutSideText {
   font-family: "Open sans", Arial, sans-serif;
   font-size: 0.8rem;
@@ -201,14 +195,6 @@ li {
 
 /* PORTFOLIO CONTAINER */
 
-.portfolioFirstPart {
-  /* blank space */
-  border: 1% solid black;
-  width: 0%;
-  height: 0;
-  margin-top: 20px;
-  margin-left: 15px;
-}
 
 .portfolioSecondPart {
   background-color: #1c1c1c;
