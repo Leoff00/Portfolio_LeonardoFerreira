@@ -11,7 +11,23 @@ a:link {
     text-decoration: none;
 }
 
+.avatarText:hover {
+    border: none;
+    font-size: 1.15rem;
+    box-shadow: none;
+    transition: 0.5s;
+}
+
 @media (min-width: 720px) and (max-width: 1080px) {
+    .avatarText:hover {
+        border: none;
+        font-size: 0.8rem;
+        box-shadow: none;
+        transition: 0.5s;
+    }
+}
+
+@media (min-width: 476px) and (max-width: 719px) {
     .avatarText:hover {
         border: none;
         font-size: 0.8rem;
