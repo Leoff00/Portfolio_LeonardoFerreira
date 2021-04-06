@@ -169,12 +169,6 @@ li {
   margin: -0.5rem 0 0 1rem;
 }
 
-.aboutName {
-  font-family: "Open sans", Arial, sans-serif;
-  font-size: 1.7rem;
-  margin: 0.5rem;
-}
-
 .explainContainer {
   font-family: "Open sans", Arial, sans-serif;
   font-size: 1rem;
@@ -285,6 +279,13 @@ li {
   display: inline;
   transition: transform 0.2s;
   transform: scale(2.3);
+  z-index: 1;
+}
+
+.projPicsMoreAmplied {
+  display: inline;
+  transition: transform 0.2s;
+  transform: scale(2.45);
   z-index: 1;
 }
 
