@@ -6,7 +6,6 @@ body {
   background-color: #c3e7fa91;
 }
 
-
 .container {
   display: flex;
 }
@@ -20,8 +19,13 @@ body {
   margin-top: 20px;
   margin-left: 15px;
   border-radius: 20px;
-  background:
-    linear-gradient(to bottom, rgba(2, 0, 36, 1) 0%, rgba(135, 206, 235, 1) 0%, rgba(255, 255, 255, 1) 55%);
+  background-color: #b5b5b5d5;
+  background-image: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(135, 206, 235, 1) 0%,
+    rgba(255, 255, 255, 1) 55%
+  );
 }
 
 .avatarContainer {
@@ -31,8 +35,8 @@ body {
 .avatar {
   flex-grow: 1;
   width: 40%;
-  height: 8rem;
-  border-radius: 10rem;
+  height: 8.5rem;
+  border-radius: 100px;
   margin: 0.3rem;
 }
 
@@ -78,10 +82,15 @@ body {
   text-align: center;
 }
 
-
 .listContainer {
-  background:
-    linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(135, 206, 235, 0.7525385154061625) 0%, rgba(255, 255, 255, 1) 100%, rgba(209, 236, 247, 1) 100%);
+  background-color: #a3a3a3d5;
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(135, 206, 235, 0.7525385154061625) 0%,
+    rgba(255, 255, 255, 1) 100%,
+    rgba(209, 236, 247, 1) 100%
+  );
   width: 100%;
   margin: auto;
   border-radius: 2%;
@@ -99,11 +108,9 @@ li {
   font-size: 1rem;
   font-family: "Open sans", Arial, sans-serif;
   padding: 2.5px;
-  align-content: flex-start;
   color: #1c1c1c;
   font-weight: 400;
 }
-
 
 .socialContainer {
   display: flex;
@@ -119,9 +126,7 @@ li {
   border-radius: 5%;
 }
 
-
 /* CARD CONTAINER */
-
 
 /* ABOUT CONTAINER */
 
@@ -132,8 +137,13 @@ li {
   margin-top: 20px;
   margin-left: 15px;
   border-radius: 20px;
-  background:
-    linear-gradient(270deg, rgba(2, 0, 36, 1) 0%, rgba(180, 228, 247, 0.59) 0%, rgba(255, 255, 255, 0.323) 30%);
+  background-color: #c9c9c9d5;;
+  background-image: linear-gradient(
+    270deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(180, 228, 247, 0.59) 0%,
+    rgba(255, 255, 255, 0.323) 30%
+  );
 }
 
 .aboutHeaderContainer {
@@ -182,41 +192,44 @@ li {
 .aboutSideText {
   font-family: "Open sans", Arial, sans-serif;
   font-size: 0.8rem;
-  margin: 1rem;
-  float: right;
+  margin: 2rem;
 }
 
 /* ABOUT CONTAINER */
-
 
 /* PROJECTS CONTAINER */
 
 .portfolioContainer {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-
 
 /* PORTFOLIO CONTAINER */
 
-.firstPart {
+.portfolioFirstPart {
   /* blank space */
   border: 1% solid black;
-  width: 25%;
-  height: 32rem;
+  width: 0%;
+  height: 0;
   margin-top: 20px;
   margin-left: 15px;
 }
 
-.secondPart {
+.portfolioSecondPart {
   background-color: #1c1c1c;
   border: 2px solid black;
   width: 70%;
-  height: 105vh;
+  height: 115vh;
   margin: 20px 0px 5px 15px;
   border-radius: 20px;
-  background:
-    linear-gradient(270deg, rgba(2, 0, 36, 1) 0%, rgba(180, 228, 247, 0.59) 0%, rgba(255, 255, 255, 0.323) 30%);
+  background-color: #c9c9c9d5;
+  background-image: linear-gradient(
+    360deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(180, 228, 247, 0.59) 0%,
+    rgba(255, 255, 255, 0.323) 30%
+  );
 }
 
 .portfolioHeaderContainer {
@@ -265,6 +278,14 @@ li {
   width: 100%;
   height: 80%;
   border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.projPicsAmplied {
+  display: inline;
+  transition: transform 0.2s;
+  transform: scale(2.3);
+  z-index: 1;
 }
 
 .projSubText {
@@ -272,7 +293,7 @@ li {
   font-size: 1.1rem;
   text-align: center;
   font-weight: bolder;
-
+  margin: 1rem;
 }
 
-/* PORTFOLIO CONTAINER
+/* PORTFOLIO CONTAINER */
