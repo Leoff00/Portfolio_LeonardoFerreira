@@ -177,15 +177,15 @@
 
   .aboutContainer {
     width: 65%;
-    height: 65vh;
+    height: 80vh;
   }
 
   .explainContainer {
-    font-size: 1.23rem;
+    font-size: 1.3rem;
   }
 
   .portfolioSecondPart {
-    height: 260vh;
+    height: 300vh;
   }
 
   .cardFrames {
