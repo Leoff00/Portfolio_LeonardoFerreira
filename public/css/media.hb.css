@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
+
 /* HIGHER RESOLUTION */
+
+
 
 @media (min-width: 1294px) {
   html {
@@ -72,7 +75,7 @@
 
   .aboutContainer {
     width: 65%;
-    height: 75vh;
+    height: 36rem;
   }
 
   .explainContainer {
@@ -81,12 +84,12 @@
 
   .portfolioSecondPart {
     width: 60%;
-    height: 165vh;
+    height: 68rem;
   }
 
   .footerBox {
     width: 60%;
-    height: 60vh;
+    height: 32rem;
   }
 
   #whatsappLink {
@@ -110,8 +113,8 @@
   }
 }
 
-/* FIRST RESOLUTION */
 
+/* FIRST RESOLUTION */
 
 /* SECOND RESOLUTION */
 
@@ -177,7 +180,7 @@
 
   .aboutContainer {
     width: 65%;
-    height: 80vh;
+    height: 50rem;
   }
 
   .explainContainer {
@@ -185,7 +188,7 @@
   }
 
   .portfolioSecondPart {
-    height: 300vh;
+    height: 105rem;
   }
 
   .cardFrames {
@@ -199,7 +202,7 @@
   }
 
   .footerBox {
-    height: 40vh;
+    height: 35rem;
   }
 
   #whatsappLink {
@@ -298,7 +301,7 @@
   }
 
   .aboutContainer {
-    height: 100vh;
+    height: 55rem;
     width: 70%;
 
   }
@@ -539,7 +542,7 @@
   }
 
   .aboutContainer {
-    height: 135vh;
+    height: 60rem;
     width: 75%;
 
   }

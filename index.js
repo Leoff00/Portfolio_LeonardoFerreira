@@ -1,15 +1,18 @@
 const express = require("express");
 const handlebars = require("express-handlebars");
 const app = express();
-const PORT = 3000;
-const router = require("./routes/router");
+const PORT = 8081;
 
-app.use("/", router);
+
 app.use(express.static("public"));
 // app.use(express.static(path.join(__dirname + "public")));
 app.engine("handlebars", handlebars({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
-app.listen(PORT, () => {
-  console.log(`Listening on http://localhost:3000`);
+app.get("/", (req, res) => {
+  res.render("index");
+});
+
+app.listen(process.env.PORT || PORT, () => {
+  console.log(`Listening on http://localhost:8081`);
 });
