@@ -1,10 +1,6 @@
 @charset "UTF-8";
 
 
-/* HIGHER RESOLUTION */
-
-
-
 @media (min-width: 1294px) {
   html {
     font-size: 95%;
@@ -29,10 +25,6 @@
   }
 }
 
-/* HIGHER RESOLUTION */
-
-
-/* FIRST RESOLUTION */
 
 @media (min-width: 1080px) and (max-width: 1293px) {
   .svgIcon {
@@ -113,10 +105,6 @@
   }
 }
 
-
-/* FIRST RESOLUTION */
-
-/* SECOND RESOLUTION */
 
 @media (min-width: 720px) and (max-width: 1080px) {
 
@@ -228,10 +216,6 @@
   }
 }
 
-/* SECOND RESOLUTION */
-
-
-/* THIRD RESOLUTION */
 
 @media (min-width: 476px) and (max-width: 719px) {
   .svgIcon {
@@ -346,10 +330,6 @@
   }
 }
 
-/* THIRD RESOLUTION */
-
-
-/* LOWER RESOLUTION */
 
 @media (max-width: 475px) {
 
@@ -863,6 +843,3 @@
     margin: 2px
   }
 }
-
-
-/* LOWER RESOLUTION */
