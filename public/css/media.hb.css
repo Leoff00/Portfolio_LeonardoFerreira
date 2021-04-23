@@ -1,35 +1,9 @@
 @charset "UTF-8";
 
 
-@media (min-width: 1294px) {
-  html {
-    font-size: 95%;
-  }
-
-  .portfolioSecondPart {
-    width: 60%;
-    height: 115vh;
-  }
-
-  .footerBox {
-    width: 60%;
-    height: 55vh;
-  }
-
-  #credits {
-    font-size: 0.9rem;
-  }
-
-  #freepik {
-    font-size: 0.9rem;
-  }
-}
-
-
 @media (min-width: 1080px) and (max-width: 1293px) {
   .svgIcon {
-    width: 40px;
-    height: 40px;
+   display: none;
   }
 
   .headerText {
@@ -76,12 +50,12 @@
 
   .portfolioSecondPart {
     width: 60%;
-    height: 68rem;
+    height: 100rem;
   }
 
   .footerBox {
     width: 60%;
-    height: 32rem;
+    height: 26rem;
   }
 
   #whatsappLink {
@@ -103,10 +77,11 @@
   #freepik {
     font-size: 1.5rem;
   }
+
 }
 
 
-@media (min-width: 720px) and (max-width: 1080px) {
+@media (max-width: 1000px) {
 
   .svgIcon {
     padding: 0;
@@ -137,7 +112,7 @@
   }
 
   .avatarText {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     padding: 0;
   }
 
@@ -176,7 +151,7 @@
   }
 
   .portfolioSecondPart {
-    height: 105rem;
+    height: 180rem;
   }
 
   .cardFrames {
@@ -190,7 +165,7 @@
   }
 
   .footerBox {
-    height: 35rem;
+    height: 25rem;
   }
 
   #whatsappLink {
@@ -217,7 +192,7 @@
 }
 
 
-@media (min-width: 476px) and (max-width: 719px) {
+@media (max-width: 600px) {
   .svgIcon {
     padding: 0;
     margin: 0;
@@ -279,19 +254,22 @@
   }
 
   .mediaIcons {
-    width: 5rem;
-    height: 3rem;
-    margin: 2rem 0.5rem;
+    width: 4rem;
+    height: 2.5rem;
+    margin: 1rem 0.2rem;
   }
 
   .aboutContainer {
     height: 55rem;
     width: 70%;
-
   }
 
   .explainContainer {
     font-size: 1.1rem;
+  }
+
+  .aboutSideText {
+    font-size: 0.75rem;
   }
 
   .portfolioContainer {
@@ -303,7 +281,7 @@
 
   .portfolioSecondPart {
     width: 80%;
-    height: 300vh;
+    height: 175rem;
   }
 
   .cardFrames {
@@ -317,20 +295,24 @@
   }
 
   .footerBox {
-    width: 75%;
-    height: 60vh;
+    width: 80%;
+    height: 30rem;
+  }
+
+  #whatsappLink, #email, #telegram {
+    font-size: 1.2rem;
   }
 
   #credits {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   #freepik {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
 
-
+/* 
 @media (max-width: 475px) {
 
   .svgIcon {
@@ -842,4 +824,4 @@
     font-size: 1.08rem;
     margin: 2px
   }
-}
+} */

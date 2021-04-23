@@ -177,7 +177,11 @@ li {
   font-weight: 400;
 }
 
-
+.aboutSideText {
+  font-family: "Open sans", Arial, sans-serif;
+  font-size: 0.8rem;
+  margin: 2rem;
+}
 
 /* ABOUT CONTAINER */
 
@@ -196,7 +200,7 @@ li {
   background-color: #1c1c1c;
   border: 2px solid black;
   width: 70%;
-  height: 115vh;
+  height: 65.5rem;
   margin: 20px 0px 5px 15px;
   border-radius: 20px;
   background-color: #c9c9c9d5;
