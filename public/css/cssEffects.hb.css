@@ -18,7 +18,14 @@ a:link {
     transition: 0.5s;
 }
 
-@media (min-width: 720px) and (max-width: 1080px) {
+@media (max-width: 600px) {
+
+    #btn:hover {
+        transition: 0.5s;
+        background-color: #000;
+        color: #fff;
+    }
+
     .avatarText:hover {
         border: none;
         font-size: 0.8rem;
@@ -27,7 +34,14 @@ a:link {
     }
 }
 
-@media (min-width: 476px) and (max-width: 719px) {
+@media (max-width: 1000px) {
+
+    #btn:hover {
+        transition: 0.5s;
+        background-color: #000;
+        color: #fff;
+    }
+
     .avatarText:hover {
         border: none;
         font-size: 0.8rem;
@@ -40,6 +54,12 @@ a:link {
 .projPics:hover {
     cursor: pointer;
 } 
+
+#btn:hover {
+    transition: 0.5s;
+    background-color: #000;
+    color: #fff;
+}
 
 #whatsappLink:hover {
     transition: 0.2s;

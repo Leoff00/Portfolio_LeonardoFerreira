@@ -48,5 +48,5 @@ function imgEffect() {
 
     });*/
 }
-
 imgEffect();
+
