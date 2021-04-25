@@ -1,10 +1,9 @@
 @charset "UTF-8";
 
-
 @media (min-width: 1001px) and (max-width: 1293px) {
   .svgIcon {
-   margin: 0.5rem;
-   padding: 0.5rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
   }
 
   .headerText {
@@ -33,7 +32,7 @@
   li {
     font-size: 1.1rem;
   }
-  
+
   .mediaIcons {
     width: 3.5rem;
     height: 3rem;
@@ -59,7 +58,9 @@
     height: 26rem;
   }
 
-  #whatsappLink, #telegram, #email {
+  #whatsappLink,
+  #telegram,
+  #email {
     font-size: 1.2rem;
   }
 
@@ -70,12 +71,9 @@
   #freepik {
     font-size: 1.5rem;
   }
-
-} 
-
+}
 
 @media (max-width: 1000px) {
-
   .svgIcon {
     padding: 0;
     margin: 0;
@@ -107,7 +105,7 @@
   .avatarText {
     font-size: 1.1rem;
     padding: 0;
-    margin: 2.25rem 0rem; 
+    margin: 2.25rem 0rem;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -165,7 +163,9 @@
     height: 25rem;
   }
 
-  #whatsappLink, #telegram, #email {
+  #whatsappLink,
+  #telegram,
+  #email {
     font-size: 1.3rem;
   }
 
@@ -176,10 +176,9 @@
 
   #freepik {
     font-size: 1.1rem;
-    margin: 2px
+    margin: 2px;
   }
 }
-
 
 @media (max-width: 600px) {
   .svgIcon {
@@ -262,7 +261,7 @@
   }
 
   .aboutSideText {
-    font-size: 0.50rem;
+    font-size: 0.5rem;
   }
 
   .portfolioContainer {
@@ -274,7 +273,7 @@
 
   .portfolioSecondPart {
     width: 80%;
-    height: 212rem;
+    height: 205rem;
   }
 
   .cardFrames {
@@ -292,7 +291,9 @@
     height: 40rem;
   }
 
-  #whatsappLink, #email, #telegram {
+  #whatsappLink,
+  #email,
+  #telegram {
     font-size: 1rem;
   }
 
