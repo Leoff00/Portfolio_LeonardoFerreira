@@ -44,21 +44,11 @@ body {
 }
 
 .avatarText {
-  width: 20rem;
-  height: 1.5rem;
-  flex-grow: 1;
   font-family: "Open sans", Arial, sans-serif;
   font-size: 1.1rem;
-  margin-right: 0.7rem;
-  margin-top: 3rem;
-  margin-left: 0.5rem;
-  padding: 0.2rem;
-  border: 1px solid rgba(0, 0, 0, 0.487);
-  border-radius: 5px;
-  box-shadow: 5px 3px 1.5px;
+  margin: 3.5rem 1rem;
   text-align: center;
   font-weight: 300;
-  transition: 0.5s;
 }
 
 .textContainer {

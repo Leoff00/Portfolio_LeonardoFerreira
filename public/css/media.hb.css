@@ -3,7 +3,8 @@
 
 @media (min-width: 1001px) and (max-width: 1293px) {
   .svgIcon {
-   display: none;
+   margin: 0.5rem;
+   padding: 0.5rem;
   }
 
   .headerText {
@@ -70,7 +71,7 @@
     font-size: 1.5rem;
   }
 
-}
+} 
 
 
 @media (max-width: 1000px) {
@@ -99,13 +100,17 @@
   }
 
   .avatar {
-    width: 40%;
-    height: 5.5rem;
+    width: 6rem;
+    height: 6rem;
   }
 
   .avatarText {
-    font-size: 0.5rem;
+    font-size: 1.1rem;
     padding: 0;
+    margin: 2.25rem 0rem; 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 
   .textContainer {
@@ -143,7 +148,7 @@
   }
 
   .portfolioSecondPart {
-    height: 175rem;
+    height: 250rem;
   }
 
   .cardFrames {
@@ -178,8 +183,8 @@
 
 @media (max-width: 600px) {
   .svgIcon {
-    padding: 0;
-    margin: 0;
+    padding: 0.5rem;
+    margin: 0.5rem;
   }
 
   .separator {
@@ -189,7 +194,8 @@
   .headerText {
     text-align: center;
     margin: 0;
-    padding: 5px;
+    padding: 0.1rem;
+    font-size: 0.8rem;
   }
 
   .navLinks {
@@ -204,18 +210,21 @@
 
   .cardContainer {
     width: 80%;
-    height: 28rem;
+    height: 35rem;
   }
 
   .avatar {
-    min-width: 20%;
-    max-width: 28%;
-    height: 7rem;
+    width: 8rem;
+    height: 8rem;
   }
 
   .avatarText {
     font-size: 1rem;
     padding: 0;
+    margin: 3.5rem 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 
   .textContainer {
@@ -238,13 +247,13 @@
   }
 
   .mediaIcons {
-    width: 4rem;
+    width: 3.5rem;
     height: 2.5rem;
     margin: 1rem 0.2rem;
   }
 
   .aboutContainer {
-    height: 55rem;
+    height: 70rem;
     width: 70%;
   }
 
@@ -253,7 +262,7 @@
   }
 
   .aboutSideText {
-    font-size: 0.75rem;
+    font-size: 0.50rem;
   }
 
   .portfolioContainer {
@@ -265,7 +274,7 @@
 
   .portfolioSecondPart {
     width: 80%;
-    height: 175rem;
+    height: 212rem;
   }
 
   .cardFrames {
@@ -280,11 +289,11 @@
 
   .footerBox {
     width: 80%;
-    height: 30rem;
+    height: 40rem;
   }
 
   #whatsappLink, #email, #telegram {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   #credits {

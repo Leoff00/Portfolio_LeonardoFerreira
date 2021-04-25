@@ -1,5 +1,5 @@
 function toggleTheme() {
-    $("#btn").click((event) => {
+    $("#btn").click(() => {
       $(".aboutContainer").toggleClass("darkCard");
       $("body").toggleClass("darkBody");
       $(".portfolioSecondPart").toggleClass("darkPortfolio");

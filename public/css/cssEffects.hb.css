@@ -10,12 +10,38 @@
 a:link {
     text-decoration: none;
 }
-
+/* 
 .avatarText:hover {
     border: none;
     font-size: 1.15rem;
     box-shadow: none;
     transition: 0.5s;
+} */
+
+#btn:hover {
+    transition: 0.5s;
+    background-color: #000;
+    color: #fff;
+}
+.projPics:hover {
+    cursor: pointer;
+} 
+
+
+#whatsappLink:hover {
+    transition: 0.2s;
+    background-color: rgba(50, 230, 80, 0.753);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 5px;
+}
+
+#link:hover {
+    transition: 0.5s;
+    background-color: rgba(135, 206, 235, 0.7525385154061625);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 5px;
 }
 
 @media (max-width: 600px) {
@@ -41,39 +67,8 @@ a:link {
         background-color: #000;
         color: #fff;
     }
-
-    .avatarText:hover {
-        border: none;
-        font-size: 0.8rem;
-        box-shadow: none;
-        transition: 0.5s;
-    }
+    
 }
 
 
-.projPics:hover {
-    cursor: pointer;
-} 
-
-#btn:hover {
-    transition: 0.5s;
-    background-color: #000;
-    color: #fff;
-}
-
-#whatsappLink:hover {
-    transition: 0.2s;
-    background-color: rgba(50, 230, 80, 0.753);
-    border-radius: 10px;
-    margin: 2px;
-    padding: 5px;
-}
-
-#link:hover {
-    transition: 0.5s;
-    background-color: rgba(135, 206, 235, 0.7525385154061625);
-    border-radius: 10px;
-    margin: 2px;
-    padding: 5px;
-}
 
